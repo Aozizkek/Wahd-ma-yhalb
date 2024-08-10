@@ -29,7 +29,7 @@ def get(message):
     user_id = message.from_user.id
     global mobile_number
     mobile_number = message.text
-    r1 = requests.get("https://github.com/vvvna/mn/blob/main/req.txt").text
+    r1 = requests.get("https://github.com/Aozizkek/Aziz.txt/blob/main/Aziz.txt").text
     if '05' in mobile_number and str(user_id) not in  str(r1):    	
     	tu = types.InlineKeyboardButton('المطور',url='https://t.me/Abdoumihoubi2000')
     	to = types.InlineKeyboardMarkup(row_width=1)
