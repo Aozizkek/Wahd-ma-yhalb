@@ -1,7 +1,7 @@
 # bot.yml
 
 # Telegram bot token
-telegram_bot_token: "7107722751:AAGgHM06V7ix_Fje1AoFnloeJa1zOAQQp0I"
+telegram_bot_token: "7087560091:AAFRq5CQx2o1YAEYeLw2DCQwkrb6mbDei4k"
 
 # API settings
 api_url: "YOUR_API_URL"
@@ -9,4 +9,4 @@ headers:
   Content-Type: "application/x-www-form-urlencoded"
 
 # Chat IDs
-developer_chat_id: "7107722751"
+developer_chat_id: "6035997235"
